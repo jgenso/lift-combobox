@@ -1,6 +1,6 @@
 name := "combobox"
 
-version := "3.0-M2-SNAPSHOT"
+version := "2.6"
 
 organization := "net.liftmodules"
  
