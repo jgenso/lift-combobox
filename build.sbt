@@ -4,7 +4,7 @@ version := "3.0-M2-SNAPSHOT"
 
 organization := "net.liftmodules"
  
-scalaVersion := "2.11.2"
+scalaVersion := "2.11.4"
 
 crossScalaVersions := Seq("2.9.2", "2.9.1-1", "2.9.1")
 
@@ -16,7 +16,7 @@ scalacOptions in (Compile, doc) ++= Seq(
 )
 
 libraryDependencies ++= Seq(
-  "net.liftweb" %% "lift-webkit" % "3.0-M2",
+  "net.liftweb" %% "lift-webkit" % "2.6.1",
   "org.scalatest" %% "scalatest" % "2.2.1" % "test"
 )
 
