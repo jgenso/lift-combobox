@@ -1,6 +1,6 @@
 name := "combobox"
 
-version := "3.0-M2-SNAPSHOT"
+version := "2.6"
 
 organization := "net.liftmodules"
  
@@ -16,7 +16,7 @@ scalacOptions in (Compile, doc) ++= Seq(
 )
 
 libraryDependencies ++= Seq(
-  "net.liftweb" %% "lift-webkit" % "3.0-M2",
+  "net.liftweb" %% "lift-webkit" % "2.6",
   "org.scalatest" %% "scalatest" % "2.2.1" % "test"
 )
 

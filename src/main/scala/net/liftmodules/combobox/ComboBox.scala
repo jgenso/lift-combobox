@@ -281,7 +281,7 @@ abstract class ComboBox(default: List[ComboItem], allowCreate: Boolean,
     val ajaxFunc = (funcName: String) => searchAjax(S.param("term").getOrElse(""))
 
     fmapFunc(SFuncHolder(ajaxFunc)) { funcName =>
-      encodeURL(S.hostAndPath+ "/" + LiftRules.liftPath+"/ajax/"+S.renderVersion+"?"+funcName)
+      encodeURL(S.hostAndPath+ "/" + LiftRules.ajaxPath+"/ajax/"+S.renderVersion+"?"+funcName)
     }
   }
 
